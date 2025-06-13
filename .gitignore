@@ -1,0 +1,23 @@
+cat <<EOF > .gitignore
+
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+
+node_modules/
+npm-debug.log
+.env
+.env.*
+
+
+.DS_Store
+
+
+*.zip
+*.tar
+*.log
+dist/
+build/
+EOF
