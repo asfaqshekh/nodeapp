@@ -14,9 +14,9 @@ A basic Node.js app is created using `server.js` that runs on port `3000` and di
 
 1. **Create IAM User (Programmatic Access Only)**
 2. **Attach Permissions:**
-   - `AmazonEC2ContainerRegistryFullAccess`
-   - `AmazonECS_FullAccess`
-   - `CloudWatchLogsFullAccess`
+   - `AmazonEC2ContainerRegistryAccess`
+   - `AmazonECSAccess`
+   - `CloudWatchLogAccess`
    - `IAMReadOnlyAccess`
    - **(Avoid `AdministratorAccess`)**
 
